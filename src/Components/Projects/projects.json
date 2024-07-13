@@ -1,34 +1,34 @@
 [
   {
-    "img": "https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1720880683/U2NyZWVuc2hvdF8xMzFfd2ppMHVk/drilldown",
+    "img": "https://res.cloudinary.com/dnjp2exao/image/upload/v1720880683/Screenshot_131_wji0ud.png",
     "name": "Nxt Watch",
     "description": "Developed the Nxt Watch platform, a YouTube-inspired application where users can access various video categories, such as Trending, Gaming, and Saved videos,and search for specific content while customising the visual theme. user Credentials ={ username: rahul, password: rahul@2021}",
     "gitUrl": "https://github.com/mukeshlakkakula/nxtWatchApp.git",
     "url": "https://mukeshwatchnxt.ccbp.tech/"
   },
   {
-    "img": "https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1720884048/U2NyZWVuc2hvdF8xMzNfa2V0ZWNy/drilldown",
+    "img": "https://res.cloudinary.com/dnjp2exao/image/upload/v1720884048/Screenshot_133_ketecr.png",
     "name": "Bharat News",
     "description": "Bharat News is a dynamic and user-friendly news application designed to keep you informed with the latest headlines and stories from around the world. Whether you're interested in politics, technology, sports, entertainment, or business.",
     "gitUrl": "https://github.com/mukeshlakkakula/Bharat_news_Assignment.git",
     "url": "https://mukeshnewsapp.ccbp.tech/"
   },
   {
-    "img": "https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1720884083/U2NyZWVuc2hvdF8xMzJfemVibmt1/drilldown",
+    "img": "https://res.cloudinary.com/dnjp2exao/image/upload/v1720884083/Screenshot_132_zebnku.png",
     "name": "My Kitchen",
     "description": "My Kitchen is a personal full-stack project, driven by a passion for culinary delights and inspired by leading food delivery applications.Seamlessly integrating both client and server-side functionalities, myKitchen offers a comprehensive culinary experience from browsing to delivery",
     "gitUrl": "https://github.com/mukeshlakkakula/mykitchenFontend.git",
     "url": "https://cloud-kitchenfullone-frontend.vercel.app/"
   },
   {
-    "img": "https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1720885797/U2NyZWVuc2hvdF8xMzZfZjVjdzBx/drilldown",
+    "img": "https://res.cloudinary.com/dnjp2exao/image/upload/v1720885797/Screenshot_136_f5cw0q.png",
     "name": "Nxt Trendz",
     "description": "(ECommerce Clone - Amazon,Flipkart) Rolled out an innovative e-commerce platform patterned after Amazon and Flipkart.user Credentials ={ username: rahul, password: rahul@2021}",
     "gitUrl": "https://github.com/mukeshlakkakula/NxtTrends.git",
     "url": "https://mukeshtrends.ccbp.tech/"
   },
   {
-    "img": "https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1720885819/U2NyZWVuc2hvdF8xMzVfcDB5bTlz/drilldown",
+    "img": "https://res.cloudinary.com/dnjp2exao/image/upload/v1720885819/Screenshot_135_p0ym9s.png",
     "name": "Food Munch",
     "description": "Discover the world of food with this responsive website that showcases a comprehensive list of food items.",
     "gitUrl": "https://learning.ccbp.in/frontend-code-playground/f76a1d21-ff3a-4a9d-8ccd-6a8bcee644e1",
