@@ -1,0 +1,120 @@
+.imageContainer {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+.imageOne {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.ProjectMapContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  color: #000;
+
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  margin: auto;
+  border-style: solid;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.ProjectMapContainer:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.912);
+}
+
+.ProjectsFullContainer {
+  background-color: #000000f0;
+  color: #fff;
+}
+.ProjectsmapsOuterContainer {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.descriptionPara {
+  font-size: 13px;
+  font-family: cursive;
+}
+
+.projectDetailsContainer {
+  background-color: #000000f0;
+  color: #fff;
+  border-radius: 15px;
+  padding: 12px;
+}
+
+.visitBtn {
+  width: 90px;
+  padding: 8px;
+  text-align: center;
+  display: flex;
+  color: #000;
+  text-decoration: none;
+  justify-content: space-around;
+  align-items: center;
+
+  border-radius: 5px;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.visitBtn:hover {
+  background-color: #000000f0;
+  color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+}
+
+.gitVisitContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  align-items: center;
+  gap: 60px;
+}
+
+.gitImg {
+  font-size: 30px;
+  color: #fff;
+}
+
+.gitImg:hover {
+  font-size: 40px;
+  transition: font-size 2s;
+}
+
+.MyProjectsHeading {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+@media (max-width: 786px) {
+  .ProjectMapContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .imageContainer {
+    width: 100%;
+  }
+  .imageOne {
+    width: 100%;
+  }
+
+  .ProjectMapContainer {
+    width: 85%;
+  }
+}

@@ -1,0 +1,16 @@
+.SnippetsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #000000f0;
+  color: #fff;
+}
+
+.SnipContainer {
+  height: 98vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

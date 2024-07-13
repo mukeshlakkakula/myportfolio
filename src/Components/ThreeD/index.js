@@ -92,7 +92,7 @@ const RotatingSphere = ({ color, setRotationEnabled }) => {
 };
 
 const ThreeD = () => {
-  const [color, setColor] = useState("#ff0000");
+  const [color, setColor] = useState("#fff");
   const [rotationEnabled, setRotationEnabled] = useState(false);
 
   const handleColorChange = (event) => {
@@ -108,9 +108,10 @@ const ThreeD = () => {
           justifyContent: "center",
           flexDirection: "column",
           alignItems: "center",
+          paddingBottom: "120px",
         }}
       >
-        <Canvas style={{ height: "80vh" }}>
+        <Canvas style={{ height: "75vh" }}>
           <ambientLight intensity={0.5} />
           <pointLight position={[10, 10, 10]} />
           <RotatingSphere
@@ -119,7 +120,10 @@ const ThreeD = () => {
           />
           <OrbitControls enableZoom={false} enabled={rotationEnabled} />
         </Canvas>{" "}
-        <input type="color" value={color} onChange={handleColorChange} />
+        <div className="d-flex gap-1 fw-bold">
+          <span className="text-white ">Change the Color </span>
+          <input type="color" value={color} onChange={handleColorChange} />
+        </div>
       </div>
     </>
   );

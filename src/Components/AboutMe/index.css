@@ -1,0 +1,150 @@
+.AboutMeOuterContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000f0;
+  gap: 20px;
+  color: #fff;
+}
+
+.AboutMeCenterContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.skillImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.skillImg:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.912);
+}
+
+.frontendContainer {
+  display: flex;
+  width: 100%;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.myImgPhoto {
+  width: 100%;
+
+  border-style: solid;
+  border-radius: 10px;
+}
+.desContent {
+  font-size: 20px;
+  font-family: Georgia, serif;
+}
+.skillText {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.imgAndDesSection {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.skillsSection {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.ExpAndEduSection {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 25px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.ExperienceContainers {
+  background-color: #ffffff21;
+  width: 80%;
+  margin-top: 10px;
+
+  color: #f9f3f3f0;
+
+  padding: 15px;
+  border-radius: 10px;
+}
+.imagePhotoContainer {
+  width: 100%;
+}
+
+@media (max-width: 786px) {
+  .imgAndDesSection {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 95%;
+  }
+  .imagePhotoContainer {
+    width: auto;
+    margin: auto;
+  }
+  .myImgPhoto {
+    width: 300px;
+  }
+
+  .desContent {
+    font-size: 15px;
+  }
+
+  .skillImg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .frontendContainer {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .skillsSection {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .ExperienceContainers {
+    width: 100%;
+  }
+  .ExpAndEduSection {
+    width: 95%;
+  }
+
+  .header01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+}

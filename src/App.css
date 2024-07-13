@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.headTop {
+  position: fixed;
+  top: 0px;
+}
+
+* {
+  background-color: #000000ca;
+  color: #fff;
+}

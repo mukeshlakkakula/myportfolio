@@ -1,0 +1,133 @@
+.headerContainer {
+  display: flex;
+
+  justify-content: space-around;
+  width: 100%;
+  height: 73px;
+  align-items: center;
+  margin-left: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 5px;
+  background-color: #000000f0;
+}
+
+/* .lgoutBtn {
+  border-radius: 5px;
+  background-color: transparent;
+  font-weight: bold;
+  color: rgb(186, 82, 82);
+} */
+
+.mediaImg {
+  font-size: 23px;
+  color: #f9f5f5;
+}
+.mediaImg:hover {
+  font-size: 30px;
+  rotate: 360deg;
+  transition: font-size 1s, rotate 3s;
+}
+
+.activeBtn {
+  color: rgb(226, 226, 232);
+  font-weight: bold;
+
+  background-color: transparent;
+  border-color: rgb(222, 224, 227);
+
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+}
+
+.notActiveBtn {
+  font-weight: bold;
+  color: #c4c0c0f1;
+  border-style: none;
+  background-color: transparent;
+}
+
+.notActiveBtn:hover {
+  color: rgb(38, 38, 77);
+
+  padding: 5px;
+  border-radius: 3px;
+
+  background-color: rgba(201, 201, 224, 0.961);
+
+  transition: background-color 1s;
+}
+
+.headerInnerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.SocialMediaContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+  gap: 15px;
+}
+
+.routeContainer {
+  display: flex;
+  width: 43%;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.imgLogosm {
+  width: 65px;
+}
+.imgLogosm:hover {
+  rotate: 360deg;
+  transform: rotate(-360deg);
+
+  transition: rotate 3s, transform 6s;
+}
+
+@media (max-width: 786px) {
+  .activeBtn {
+    font-size: 12px;
+  }
+
+  .lgoutBtn {
+    font-size: 12px;
+  }
+
+  .mediaImg {
+    font-size: 12px;
+  }
+
+  .routeContainer {
+    width: 80%;
+  }
+  .headerContainer {
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2px;
+    padding-right: 8px;
+
+    margin-bottom: 5px;
+  }
+  .notActiveBtn {
+    font-size: 12px;
+  }
+
+  .imgLogosm {
+    width: 60px !important;
+  }
+  .loSinContainer {
+    display: none;
+  }
+  .SocialMediaContainer {
+    width: 20%;
+  }
+}

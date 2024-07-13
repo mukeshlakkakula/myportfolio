@@ -1,0 +1,22 @@
+.footerContainer {
+  background-color: #000000f0;
+  padding: 15px;
+  color: #fff;
+}
+
+.footerBottomSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ContactBtn {
+  color: #fff;
+}
+
+@media (max-width: 786px) {
+  .footerBottomSection {
+    display: flex;
+    flex-direction: column;
+  }
+}
