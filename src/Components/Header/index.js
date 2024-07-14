@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import "./index.css";
 import { useState } from "react";
+import ImageLogo from "./my_logo-removebg-preview.png";
 
 const Header = () => {
   const location = useLocation();
@@ -14,51 +15,59 @@ const Header = () => {
   return (
     <div className="headerContainer">
       <div className="routeContainer">
-        <Link to="/">
+        <Link to="myportfolio/">
           <button
-            className={activeRoute === "/" ? "activeBtn" : "notActiveBtn"}
-            value="home"
+            className={
+              activeRoute === "myportfolio/" ? "activeBtn" : "notActiveBtn"
+            }
+            value="myportfolio/home"
             onClick={() => {
-              setActiveRoute("/");
+              setActiveRoute("myportfolio/");
             }}
           >
             Home
           </button>
         </Link>
-        <Link to="/projects">
+        <Link to="myportfolio/projects">
           <button
             className={
-              activeRoute === "/projects" ? "activeBtn" : "notActiveBtn"
+              activeRoute === "myportfolio/projects"
+                ? "activeBtn"
+                : "notActiveBtn"
             }
-            value="/projects"
+            value="myportfolio/projects"
             onClick={() => {
-              setActiveRoute("/projects");
+              setActiveRoute("myportfolio/projects");
             }}
           >
             Projects
           </button>
         </Link>
-        <Link to="/AboutMe">
+        <Link to="myportfolio/AboutMe">
           <button
             className={
-              activeRoute === "/AboutMe" ? "activeBtn" : "notActiveBtn"
+              activeRoute === "myportfolio/AboutMe"
+                ? "activeBtn"
+                : "notActiveBtn"
             }
-            value="AboutMe"
+            value="myportfolio/AboutMe"
             onClick={() => {
-              setActiveRoute("/AboutMe");
+              setActiveRoute("myportfolio/AboutMe");
             }}
           >
             About Me
           </button>
         </Link>
-        <Link to="/Snippets">
+        <Link to="myportfolio/Snippets">
           <button
             className={
-              activeRoute === "/Snippets" ? "activeBtn" : "notActiveBtn"
+              activeRoute === "myportfolio/Snippets"
+                ? "activeBtn"
+                : "notActiveBtn"
             }
-            value="/Snippets"
+            value="myportfolio/Snippets"
             onClick={() => {
-              setActiveRoute("/Snippets");
+              setActiveRoute("myportfolio/Snippets");
             }}
           >
             My Snippets
@@ -67,14 +76,14 @@ const Header = () => {
       </div>
 
       <div className="loSinContainer">
-        <Link to="/">
+        <Link to="myportfolio/">
           <img
             className="imgLogosm"
-            src="./my_logo-removebg-preview.png"
+            src={ImageLogo}
             alt="myLogo"
-            value="/"
+            value="myportfolio/"
             onClick={() => {
-              setActiveRoute("/");
+              setActiveRoute("myportfolio/");
             }}
           />
         </Link>
