@@ -122,12 +122,11 @@
   }
 
   .imgLogosm {
-    width: 60px !important;
+    width: 50px !important;
   }
-  .loSinContainer {
-    display: none;
-  }
+
   .SocialMediaContainer {
+    display: none;
     width: 20%;
   }
 }

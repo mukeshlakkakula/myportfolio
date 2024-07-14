@@ -73,6 +73,8 @@ import React, { useState, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 
+import "./index.css";
+
 const RotatingSphere = ({ color, setRotationEnabled }) => {
   const mesh = useRef();
   useFrame(() => {
@@ -111,7 +113,7 @@ const ThreeD = () => {
           paddingBottom: "120px",
         }}
       >
-        <Canvas style={{ height: "75vh" }}>
+        <Canvas style={{ height: "75vh" }} className="sphereDisplay01">
           <ambientLight intensity={0.5} />
           <pointLight position={[10, 10, 10]} />
           <RotatingSphere
@@ -119,6 +121,14 @@ const ThreeD = () => {
             setRotationEnabled={setRotationEnabled}
           />
           <OrbitControls enableZoom={false} enabled={rotationEnabled} />
+        </Canvas>{" "}
+        <Canvas style={{ height: "56vh" }} className="sphereDisplay02">
+          <ambientLight intensity={0.5} />
+          <pointLight position={[10, 10, 10]} />
+          <RotatingSphere
+            color={color}
+            setRotationEnabled={setRotationEnabled}
+          />
         </Canvas>{" "}
         <div className="d-flex gap-1 fw-bold">
           <span className="text-white ">Change the Color </span>

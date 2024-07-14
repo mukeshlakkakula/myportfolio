@@ -105,7 +105,7 @@
     margin: auto;
   }
   .myImgPhoto {
-    width: 300px;
+    width: 200px;
   }
 
   .desContent {
@@ -113,14 +113,15 @@
   }
 
   .skillImg {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 
   .frontendContainer {
     display: flex;
     width: 100%;
     overflow-x: scroll;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
