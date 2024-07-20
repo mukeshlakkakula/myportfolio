@@ -7,11 +7,11 @@
     "url": "https://mukeshwatchnxt.ccbp.tech/"
   },
   {
-    "img": "https://res.cloudinary.com/dnjp2exao/image/upload/v1720884048/Screenshot_133_ketecr.png",
-    "name": "Bharat News",
-    "description": "Bharat News is a dynamic and user-friendly news application designed to keep you informed with the latest headlines and stories from around the world. Whether you're interested in politics, technology, sports, entertainment, or business.",
-    "gitUrl": "https://github.com/mukeshlakkakula/Bharat_news_Assignment.git",
-    "url": "https://mukeshnewsapp.ccbp.tech/"
+    "img": "https://res.cloudinary.com/dnjp2exao/image/upload/v1721481276/Screenshot_138_e53nln.png",
+    "name": "Book Hub",
+    "description": "creating an app that will fetch data from an internal server using a class component, displaying that data, using component lifecycle methods, routing concepts, authentication, and authorization, and adding responsiveness to the website. Credentials ={ username: rahul, password: rahul@2021}",
+    "gitUrl": "https://github.com/mukeshlakkakula/mukeshMiniProject.git",
+    "url": "https://mukeshminipj.ccbp.tech/"
   },
   {
     "img": "https://res.cloudinary.com/dnjp2exao/image/upload/v1720884083/Screenshot_132_zebnku.png",

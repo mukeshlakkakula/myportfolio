@@ -1,4 +1,5 @@
 .SnippetsContainer {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -7,10 +8,134 @@
 }
 
 .SnipContainer {
-  height: 98vh;
-  margin: auto;
+  min-height: 98vh;
+  padding-top: 25px;
+  width: 100%;
+  text-align: left;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.cmpLogos {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.CompanyAssignmentContainer {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 2rem;
+
+  width: 95%;
   text-align: center;
+  margin-top: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  backdrop-filter: blur(10px); /* Blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  color: #fff; /* Text color */
+}
+
+.companyNameContainer {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  width: 100%;
+  font-weight: bold;
+}
+
+.ButtonsContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15%;
+  align-items: center;
+}
+
+.gitLogo {
+  font-size: 35px;
+  color: #fff;
+}
+
+.clickMeBtn {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  backdrop-filter: blur(10px); /* Blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  gap: 5px;
+}
+
+.gitLogo:hover {
+  color: #f80202;
+
+  transition: color 1s;
+}
+
+.clickMeBtn:hover {
+  color: #000;
+}
+
+.techContainer {
+  text-align: left;
+}
+
+.nxtWaveLogo {
+  padding: 10px;
+  width: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.clickMeBtn02 {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  backdrop-filter: blur(10px); /* Blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  gap: 5px;
+}
+.clickMeBtn02:hover {
+  color: #000;
+}
+
+.companyNameContainer02 {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  width: 100%;
+  align-items: center;
+  font-weight: bold;
+}
+
+@media (max-width: 786px) {
+  .companyNameContainer02 {
+    padding: 3px;
+    font-size: 20px;
+  }
+  .CompanyAssignmentContainer {
+    padding-top: 20px;
+    padding: 13px 8px;
+  }
+
+  .clickMeBtn02 {
+    font-size: 15px;
+  }
 }

@@ -1,0 +1,79 @@
+[
+  [
+    {
+      "logo": "https://media.licdn.com/dms/image/C510BAQFT6uXPLsQA9w/company-logo_200_200/0/1631359033721?e=1729728000&v=beta&t=XoAoXBe6T316tDNFyiwc-9JDE6SV4iSDbZSWuoTGYw4",
+      "cmpName": "fyle",
+      "tech_stack": "HTML , CSS , JavaScript, Jquery ",
+      "URl": "https://fylecompany.vercel.app/",
+      "gitUrl": "https://github.com/mukeshlakkakula/fylecompany.git"
+    },
+    {
+      "logo": "https://media.licdn.com/dms/image/D560BAQESkphbU6_LXA/company-logo_200_200/0/1710395762121/marketesqio_logo?e=1729728000&v=beta&t=jzatQL4J2sYp_sBz4bZKeUucqLt66ptwDxcEbsOwlQg",
+      "cmpName": "Karo Abhayaas",
+      "tech_stack": "HTML , CSS , ReactJs ",
+      "URl": "https://mukeshmarkeioassignment.vercel.app/",
+      "gitUrl": "https://github.com/mukeshlakkakula/marketcompanyassignment.git"
+    },
+    {
+      "logo": "https://media.licdn.com/dms/image/D560BAQHBu6yjqnBgOg/company-logo_200_200/0/1693076573366/dsiprotocol_logo?e=1729728000&v=beta&t=b_PrmylKH4xNJQHljnpE5gu5FY73OLXRN_FJefHBPHs",
+      "cmpName": "Pioneer Labs",
+      "tech_stack": "HTML , CSS , ReactJs, Rest API  ",
+      "URl": "https://mukeshpioneer.vercel.app/",
+      "gitUrl": "https://github.com/mukeshlakkakula/companyassignment.git"
+    }
+  ],
+
+  [
+    {
+      "logo": "https://res.cloudinary.com/djlhr4ycg/image/upload/v1716195912/DMCpro.logo-removebg-preview_k1uasp.png",
+      "cmpName": "DMC PRO.in",
+      "tech_stack": "MERN Stack, git",
+      "URl": "https://dmcprowebsite.vercel.app/"
+    }
+  ],
+
+  [
+    {
+      "logo": "https://i.pinimg.com/564x/b6/7a/1a/b67a1a7225539923840cc698dcceb169.jpg",
+      "cmpName": "Self Assignment",
+      "tech_stack": "MERN Stack, git",
+      "URl": "https://selfchatapp.vercel.app/",
+      "gitUrl": "https://github.com/mukeshlakkakula/selfchatapp.git"
+    },
+    {
+      "logo": "https://i.pinimg.com/564x/4b/4e/52/4b4e52aca2303bf042961006080434ff.jpg",
+      "cmpName": "Self Assignment",
+      "tech_stack": "MERN Stack, git",
+      "URl": "https://mukeshselfassesmentassignment.vercel.app/",
+      "gitUrl": "https://github.com/mukeshlakkakula/selfassesmentassigment.git"
+    }
+  ],
+
+  [
+    {
+      "url": "https://mukeshnewsapp.ccbp.tech/",
+
+      "Name": "News app"
+    },
+    {
+      "url": "https://mukeshccbptime.ccbp.tech/",
+
+      "Name": "My projects Time line"
+    },
+    {
+      "url": "https://mukeshgallery.ccbp.tech/",
+
+      "Name": "Nature Gallery"
+    },
+    {
+      "url": "https://mukeshwikiweb.ccbp.tech/",
+
+      "Name": "WikiPedia Search"
+    },
+    {
+      "url": "https://mukeshtodoslist.ccbp.tech/",
+
+      "Name": "Todo List"
+    }
+  ]
+]
