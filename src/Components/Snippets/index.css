@@ -23,6 +23,9 @@
   width: 50px;
   height: 50px;
   border-radius: 5px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 1px;
 }
 
 .CompanyAssignmentContainer {
@@ -42,6 +45,7 @@
 .companyNameContainer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #fff;
   width: 100%;
   font-weight: bold;
@@ -125,9 +129,36 @@
   font-weight: bold;
 }
 
+.cmpHeadEl {
+  font-size: 30px;
+  font-weight: bold;
+}
+.techSpan {
+  font-size: 25px;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
 @media (max-width: 786px) {
   .companyNameContainer02 {
     padding: 3px;
+    font-size: 18px;
+  }
+  .techPara {
+    font-size: 13px;
+  }
+
+  .clickMeBtn02 {
+    font-size: 15px;
+  }
+
+  .techSpan {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0d6efd;
+  }
+
+  .companyNameContainer {
     font-size: 20px;
   }
   .CompanyAssignmentContainer {
@@ -137,5 +168,15 @@
 
   .clickMeBtn02 {
     font-size: 15px;
+  }
+
+  .cmpLogos {
+    width: 40px;
+
+    height: 40px;
+  }
+
+  .cmpHeadEl {
+    font-size: 20px;
   }
 }

@@ -14,7 +14,9 @@ const Snippets = () => {
       </h4>
       <div>
         <div className="techContainer">
-          <p>Tech Stack used: {each.tech_stack}</p>
+          <p className="techPara">
+            <span className="techSpan">Tech Stack used:</span> {each.tech_stack}
+          </p>
         </div>
 
         <div className="ButtonsContainer">
@@ -37,7 +39,9 @@ const Snippets = () => {
       </h4>
       <div>
         <div className="techContainer">
-          <p>Tech Stack used: {each.tech_stack}</p>
+          <p className="techPara">
+            <span className="techSpan">Tech Stack used:</span> {each.tech_stack}
+          </p>
         </div>
 
         <div className="ButtonsContainer">
@@ -60,7 +64,9 @@ const Snippets = () => {
       </h4>
       <div>
         <div className="techContainer">
-          <p>Tech Stack used: {each.tech_stack}</p>
+          <p className="techPara">
+            <span className="techSpan">Tech Stack used:</span> {each.tech_stack}
+          </p>
         </div>
 
         <div className="ButtonsContainer">
@@ -89,13 +95,13 @@ const Snippets = () => {
   return (
     <div className="SnippetsContainer">
       <div className="SnipContainer">
-        <h1 className="text-info">Companies Assignments</h1>
+        <h1 className="text-info cmpHeadEl">Companies Assignments</h1>
         {CompanyAssignments}
-        <h1 className="text-success">Internship Task</h1>
+        <h1 className="text-success cmpHeadEl">Internship Task</h1>
         {myInternShipProject}
-        <h1 className="text-info ">Self Evaluation Assignments</h1>
+        <h1 className="text-info cmpHeadEl">Self Evaluation Assignments</h1>
         {selfEvalutionProject}
-        <h1 className="text-primary">
+        <h1 className="text-primary cmpHeadEl">
           NxtWave Assignments{" "}
           <img
             src="https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Nxtwave_Colored.svg"

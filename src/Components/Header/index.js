@@ -27,6 +27,21 @@ const Header = () => {
           >
             Home
           </button>
+        </Link>{" "}
+        <Link to="myportfolio/AboutMe">
+          <button
+            className={
+              activeRoute === "myportfolio/AboutMe"
+                ? "activeBtn abandMyContainer"
+                : "notActiveBtn abandMyContainer"
+            }
+            value="myportfolio/AboutMe"
+            onClick={() => {
+              setActiveRoute("myportfolio/AboutMe");
+            }}
+          >
+            About Me
+          </button>
         </Link>
         <Link to="myportfolio/projects">
           <button
@@ -43,27 +58,12 @@ const Header = () => {
             Projects
           </button>
         </Link>
-        <Link to="myportfolio/AboutMe">
-          <button
-            className={
-              activeRoute === "myportfolio/AboutMe"
-                ? "activeBtn"
-                : "notActiveBtn"
-            }
-            value="myportfolio/AboutMe"
-            onClick={() => {
-              setActiveRoute("myportfolio/AboutMe");
-            }}
-          >
-            About Me
-          </button>
-        </Link>
         <Link to="myportfolio/Snippets">
           <button
             className={
               activeRoute === "myportfolio/Snippets"
-                ? "activeBtn"
-                : "notActiveBtn"
+                ? "activeBtn abandMyContainer"
+                : "notActiveBtn abandMyContainer"
             }
             value="myportfolio/Snippets"
             onClick={() => {
