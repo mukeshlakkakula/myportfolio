@@ -13,10 +13,10 @@ function App() {
           <Header />
         </div>
         <Routes>
-          <Route exact path="/myportfolio/" Component={Home} />
-          <Route exact path="myportfolio/Projects" Component={Projects} />
-          <Route exact path="myportfolio/AboutMe" Component={AboutMe} />
-          <Route exact path="myportfolio/Snippets" Component={Snippets} />
+          <Route exact path="/" Component={Home} />
+          <Route exact path="/Projects" Component={Projects} />
+          <Route exact path="/AboutMe" Component={AboutMe} />
+          <Route exact path="/Snippets" Component={Snippets} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -15,59 +15,55 @@ const Header = () => {
   return (
     <div className="headerContainer">
       <div className="routeContainer">
-        <Link to="myportfolio/">
+        <Link to="/">
           <button
-            className={
-              activeRoute === "myportfolio/" ? "activeBtn" : "notActiveBtn"
-            }
-            value="myportfolio/home"
+            className={activeRoute === "/" ? "activeBtn" : "notActiveBtn"}
+            value="/home"
             onClick={() => {
-              setActiveRoute("myportfolio/");
+              setActiveRoute("/");
             }}
           >
             Home
           </button>
         </Link>{" "}
-        <Link to="myportfolio/AboutMe">
+        <Link to="/AboutMe">
           <button
             className={
-              activeRoute === "myportfolio/AboutMe"
+              activeRoute === "/AboutMe"
                 ? "activeBtn abandMyContainer"
                 : "notActiveBtn abandMyContainer"
             }
-            value="myportfolio/AboutMe"
+            value="/AboutMe"
             onClick={() => {
-              setActiveRoute("myportfolio/AboutMe");
+              setActiveRoute("/AboutMe");
             }}
           >
             About Me
           </button>
         </Link>
-        <Link to="myportfolio/projects">
+        <Link to="/projects">
           <button
             className={
-              activeRoute === "myportfolio/projects"
-                ? "activeBtn"
-                : "notActiveBtn"
+              activeRoute === "/projects" ? "activeBtn" : "notActiveBtn"
             }
-            value="myportfolio/projects"
+            value="/projects"
             onClick={() => {
-              setActiveRoute("myportfolio/projects");
+              setActiveRoute("/projects");
             }}
           >
             Projects
           </button>
         </Link>
-        <Link to="myportfolio/Snippets">
+        <Link to="/Snippets">
           <button
             className={
-              activeRoute === "myportfolio/Snippets"
+              activeRoute === "/Snippets"
                 ? "activeBtn abandMyContainer"
                 : "notActiveBtn abandMyContainer"
             }
-            value="myportfolio/Snippets"
+            value="/Snippets"
             onClick={() => {
-              setActiveRoute("myportfolio/Snippets");
+              setActiveRoute("/Snippets");
             }}
           >
             My Snippets
@@ -76,14 +72,14 @@ const Header = () => {
       </div>
 
       <div className="loSinContainer">
-        <Link to="myportfolio/">
+        <Link to="/">
           <img
             className="imgLogosm"
             src={ImageLogo}
             alt="myLogo"
-            value="myportfolio/"
+            value="/"
             onClick={() => {
-              setActiveRoute("myportfolio/");
+              setActiveRoute("/");
             }}
           />
         </Link>
