@@ -45,10 +45,10 @@ const AboutMe = () => {
                 industry-ready certifications and teaching assistant roles
               </h4>
               <h4 className="desContent">
-                Recently, I contributed to web development projects at DMC
-                PRO.in, where I developed and maintained websites while gaining
-                expertise in version control and collaborative project
-                management using Git.
+                Recently, I contributed to web development projects at Explorers
+                Company Private Limited, where I developed and maintained
+                websites while gaining expertise in version control and
+                collaborative project management using Git.
               </h4>
             </div>
           </div>
@@ -143,7 +143,10 @@ const AboutMe = () => {
           <div className="ExpAndEduSection">
             <h2>Experience</h2>
             <div className="ExperienceContainers">
-              <h4>Web Developer Intern at DMC PRO.in(3 months)</h4>
+              <h4>
+                Web Developer Intern at Explorers Company Private Limited(3
+                months)
+              </h4>
               <div>
                 <h6>
                   Played a key role in the development and maintenance of the
