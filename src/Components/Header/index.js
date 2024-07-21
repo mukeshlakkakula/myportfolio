@@ -8,10 +8,9 @@ import ImageLogo from "./my_logo-removebg-preview.png";
 
 const Header = () => {
   const location = useLocation();
-  console.log(location.pathname);
+
   const [activeRoute, setActiveRoute] = useState(location.pathname);
 
-  console.log(activeRoute);
   return (
     <div className="headerContainer">
       <div className="routeContainer">
