@@ -18,15 +18,24 @@ const Home = () => {
             into innovative web applications. Explore my latest projects and My
             Snippets, showcasing my expertise in React.js and web development.
           </p>
-          <a
-            type="button"
-            className="ResumeBtn"
-            download={true}
-            href={`${process.env.PUBLIC_URL}/Mukesh_resume_2024.pdf`}
-          >
-            Resume {"  "}
-            <FaArrowUpRightFromSquare />
-          </a>
+          <div style={{ display: "flex", gap: "20px", alignItems: "center" }}>
+            <a
+              type="button"
+              className="ResumeBtn"
+              download={true}
+              href={`${process.env.PUBLIC_URL}/Mukesh_Resume0806.pdf`}
+            >
+              Resume {"  "}
+              <FaArrowUpRightFromSquare />
+            </a>
+            <a
+              type="button"
+              className="ContactBtn"
+              href="mailto:lakkakulababblu@gmail.com"
+            >
+              Contact Me
+            </a>
+          </div>
         </div>
       </div>
       <Footer />

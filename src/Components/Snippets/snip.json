@@ -1,6 +1,13 @@
 [
   [
     {
+      "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQGVJlWaMoIbyw/company-logo_200_200/company-logo_200_200/0/1630653947706/playpower_labs_logo?e=1731542400&v=beta&t=aeG8LCvBALzN41-j4Mp8hauFVWcP3Txs0EfPkUnzYMk",
+      "cmpName": "Playpower Labs",
+      "tech_stack": "HTML , CSS , JavaScript, React.js",
+      "URl": "https://playpowerlabsmks.vercel.app/",
+      "gitUrl": "https://github.com/mukeshlakkakula/playpowerlabsassignment.git"
+    },
+    {
       "logo": "https://media.licdn.com/dms/image/C510BAQFT6uXPLsQA9w/company-logo_200_200/0/1631359033721?e=1729728000&v=beta&t=XoAoXBe6T316tDNFyiwc-9JDE6SV4iSDbZSWuoTGYw4",
       "cmpName": "fyle",
       "tech_stack": "HTML , CSS , JavaScript, Jquery ",
