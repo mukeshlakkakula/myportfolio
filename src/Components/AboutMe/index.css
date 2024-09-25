@@ -15,16 +15,16 @@
 }
 
 .skillImg {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   object-fit: cover;
   border-radius: 10px;
 }
 
 .skillImg:hover {
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.912);
-  width: 105px;
-  height: 105px;
+  width: 80px;
+  height: 80px;
   transition: width 1s, height 1s;
 }
 
@@ -39,7 +39,6 @@
 .myImgPhoto {
   width: 100%;
 
-  border-style: solid;
   border-radius: 10px;
 }
 .desContent {
@@ -66,9 +65,10 @@
   width: 80%;
   margin: auto;
   margin-top: 30px;
+
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 35px;
 }
 

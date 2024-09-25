@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import Footer from "../Footer";
-import myImage from "./Images/WhatsApp Image 2024-07-13 at 12.56.39 PM.jpeg";
+import myImage from "./Images/myprofileimage.png";
 import HtmlImg from "./Images/HtmlImg.jpg";
 import CssImg from "./Images/CssImg.jpg";
 import JsImg from "./Images/JsImg.jpg";
