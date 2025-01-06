@@ -3,6 +3,7 @@ import Footer from "../Footer";
 import { FaGitAlt } from "react-icons/fa";
 import snipData from "./snip.json";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import LogoImg from "./my_logo.png";
 import "./index.css";
 
 const Snippets = () => {
@@ -10,7 +11,7 @@ const Snippets = () => {
     <div className="CompanyAssignmentContainer">
       <h4 className="companyNameContainer">
         {each.cmpName}{" "}
-        <img src={each.logo} alt={each.cmpName} className="cmpLogos" />
+        <img src={LogoImg} alt={each.cmpName} className="cmpLogos" />
       </h4>
       <div>
         <div className="techContainer">
